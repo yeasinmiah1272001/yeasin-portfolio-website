@@ -18,11 +18,13 @@ const About = () => {
           ______________
         </h1>
         <p className="text-lightColor mb-4">
-          Hello! My name is Yeasin Ahmed and I enjoy creating things that live
-          on the internet. My interest in web development started back in 2022
-          when I decided to try editing custom <br />
-          Tumblr themes — turns out hacking together a custom reblog button
-          taught me a lot about HTML & CSS, Javascript, react js, nodejs etc!
+          I am a Junior Frontend Developer with a strong foundation in HTML,
+          CSS, and React.js. I specialize in creating interactive and
+          user-friendly web applications, and I'm currently expanding my skills
+          in Next.js and TypeScript. Passionate about seamless user experiences
+          and web performance, I use Tailwind CSS for responsive design and
+          integrate various libraries to enhance functionality. I stay updated
+          with industry trends to deliver modern, cutting-edge solutions.
         </p>
         <p className="text-lightColor mb-4">
           Fast-forward to today, and I had the privilege of working at an

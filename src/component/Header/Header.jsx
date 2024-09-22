@@ -13,7 +13,7 @@ const Header = () => {
     { title: "Home", path: "Home", value: "" },
     { title: "About", path: "About", value: "01", delay: 0.1 },
     { title: "Skills", path: "Skills", value: "02", delay: 0.2 },
-    { title: "Experience", path: "Experience", value: "03", delay: 0.3 },
+    // { title: "Experience", path: "Experience", value: "03", delay: 0.3 },
     { title: "Project", path: "Project", value: "04", delay: 0.4 },
     { title: "Contact", path: "Contact", value: "05", delay: 0.5 },
   ];
@@ -25,7 +25,7 @@ const Header = () => {
   };
 
   return (
-    <div className="h-20 bg-gray-900 bg-opacity-35 shadow-lg shadow-designColor/10 lg:px-0 sticky top-0 z-50">
+    <div className="h-20 cursor-pointer bg-gray-900 bg-opacity-35 shadow-lg shadow-designColor/10 lg:px-0 sticky top-0 z-50">
       <div className="flex justify-between items-center h-full lg:px-6">
         <img
           className="lg:w-20 lg:mr-0 rounded-lg h-24 opacity-80 hover:opacity-100"

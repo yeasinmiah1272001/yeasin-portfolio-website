@@ -1,5 +1,5 @@
 import React from "react";
-import contact from "../../assets/contact-unscreen.gif";
+import img1 from "../../assets/contact.png";
 import Container from "../Container/Container";
 
 const Contact = () => {
@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center">
             <div className="w-full lg:w-1/2">
               <img
-                src={contact}
+                src={img1}
                 alt="Contact Image"
                 className="rounded-lg shadow-lg w-96"
               />
