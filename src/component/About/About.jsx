@@ -9,7 +9,7 @@ const About = () => {
     <Container
       id={"About"}
       className={
-        "py-20 flex flex-col lg:px-0 md:px-24 md:flex-row items-start text-lg space-y-6"
+        "py-20 flex flex-col lg:px-0 md:px-24 md:flex-row items-start text-lg space-y-6 lg:mx-20"
       }
     >
       <div className="md:w-2/3 md:pr-8">

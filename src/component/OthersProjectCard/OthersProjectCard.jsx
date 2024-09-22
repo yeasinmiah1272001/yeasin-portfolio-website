@@ -108,7 +108,7 @@ const OthersProjectCard = () => {
           <h1 className="text-3xl">Other Noteworthy Projects</h1>
           <p className="text-designColor"> View the archive</p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mx-auto font-bodyFont mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:mx-5 lg:grid-cols-3 gap-4 lg:gap-6 mx-auto font-bodyFont mt-10">
           {projectsToShow.map((project, index) => (
             <motion.a
               key={index}

@@ -1,7 +1,7 @@
 import About from "../About/About";
 import Banner from "../Banner/Banner";
 import Contact from "../Contact/Contact";
-import Experieance from "../Experieance/Experieance";
+// import Experieance from "../Experieance/Experieance";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import OthersProjectCard from "../OthersProjectCard/OthersProjectCard";
@@ -13,7 +13,6 @@ import SkillsCard from "./../SkillsCard/SkillsCard";
 import Design from "../Design/Design"; // Import the Design component
 import ReviewCarousel from "../ReviewCarousel/ReviewCarousel";
 
-
 const Home = () => {
   return (
     <div className="min-h-screen bg-banner-bg font-bodyFont text-lightColor">
@@ -24,11 +23,11 @@ const Home = () => {
         <About />
         <Skills />
         <SkillsCard />
-        <Experieance />
-     
+        {/* <Experieance /> */}
+
         <Project />
         <OthersProjectCard />
-        <ReviewCarousel/>
+        <ReviewCarousel />
         <WhatNext />
         <Contact />
         <Footer />

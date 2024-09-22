@@ -5,17 +5,13 @@ import Typewriter from "typewriter-effect";
 import LeftSideNavbar from "../LeftSideNavbar/LeftSideNavbar";
 import RightSideNavbar from "../RightSideNavbar/RightSideNavbar";
 
-
 const Banner = () => {
   const stringValue = ["I build things for the web", "Frontend Developer"];
 
   return (
-    <div className="flex">
+    <div className="">
       <LeftSideNavbar></LeftSideNavbar>
-      <Container
-        id="Home"
-        className="py-20 flex lg:px-0 md:px-24  flex-col items-start text-lg lg:text-xl space-y-6"
-      >
+      <Container id="Home" className="lg:mx-24">
         <motion.h1
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -31,10 +27,7 @@ const Banner = () => {
           transition={{ duration: 0.3, delay: 0.4 }}
           className="text-4xl lg:text-6xl font-bold leading-tight"
         >
-          <span>
-            {" "}
-             Yeasin Ahmed
-          </span>
+          <span> Yeasin Ahmed</span>
 
           <span className="block text-3xl lg:text-4xl font-semibold text-designColor mt-2">
             <Typewriter
