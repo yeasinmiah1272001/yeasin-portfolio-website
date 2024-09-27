@@ -13,7 +13,7 @@ const Project = () => {
       img: img1,
       title: "E-Commerce-Smartyt",
       tech: ["Next.js", "TypeScript", "Redux", "Next Auth"],
-      liveLink: "https://shoppingmart-xi.vercel.app",
+      liveLink: "https://e-commarce-smartyt.vercel.app",
       githubLink: "https://github.com/yeasinmiah1272001/e-commarceSmartyt",
     },
     {
