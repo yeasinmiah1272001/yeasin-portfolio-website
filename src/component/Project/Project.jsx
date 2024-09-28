@@ -1,7 +1,7 @@
 import img1 from "../../assets/yt.png";
 import img2 from "../../assets/shopping.png";
 import img3 from "../../assets/bookstore.png";
-import img4 from "../../assets/todo.jpg";
+import img4 from "../../assets/shofy.png";
 
 import { motion } from "framer-motion";
 import Container from "../Container/Container";
@@ -24,19 +24,19 @@ const Project = () => {
       githubLink: "https://github.com/yeasinmiah1272001/eid-shopping",
     },
     {
+      img: img4,
+      title: "E-Commarce-Shofy",
+      tech: ["Next js", "Redux", "Next Auth"],
+      liveLink: "https://shofyproject.vercel.app",
+      githubLink: "https://github.com/yeasinmiah1272001/shofy-practice-main",
+    },
+    {
       img: img3,
       title: "Book Store",
       tech: ["React.js", "Mongodb", "Firebase", "Express"],
       liveLink: "https://book-client-five.vercel.app/",
       githubLink:
         "https://github.com/yeasinmiah1272001/backend/tree/main/Book-store",
-    },
-    {
-      img: img4,
-      title: "Todo",
-      tech: ["Next.js", "TypeScript", "Redux"],
-      liveLink: "https://todo-form-ten.vercel.app",
-      githubLink: "https://github.com/yeasinmiah1272001/todo-form",
     },
   ];
 

@@ -9,11 +9,11 @@ const OthersProjectCard = () => {
 
   const projects = [
     {
-      title: "Book-Store",
+      title: "Todo",
       description:
         "With supporting text below as a natural lead-in to additional content.",
-      tech: ["React.js", "Mongodb", "Node.js", "Firebase"],
-      link: "https://fretful-temper.surge.sh/",
+      tech: ["Next js", "Redux"],
+      link: "https://todo-form-ten.vercel.app",
     },
     {
       title: "Car-Doctor",
