@@ -25,7 +25,7 @@ const Header = () => {
   };
 
   return (
-    <div className="h-20 cursor-pointer bg-gray-900 bg-opacity-35 shadow-lg shadow-designColor/10 lg:px-0 sticky top-0 z-50">
+    <div className="h-20 cursor-pointer  bg-opacity-100 shadow-lg shadow-designColor/10 lg:px-0 sticky top-0 z-50">
       <div className="flex justify-between items-center h-full lg:px-6">
         <img
           className="lg:w-20 lg:mr-0 rounded-lg h-24 opacity-80 hover:opacity-100"
@@ -94,7 +94,7 @@ const Header = () => {
         </button>
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden absolute top-20 left-0 right-0 bg-primaryColor shadow-lg py-4 px-6">
+          <div className="lg:hidden absolute top-20 left-0 right-0 shadow-lg py-4 px-6">
             <ul className="flex flex-col gap-4">
               {navigation.map((item) => (
                 <li key={item.title}>

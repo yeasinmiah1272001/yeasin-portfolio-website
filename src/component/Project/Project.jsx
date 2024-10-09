@@ -10,11 +10,11 @@ import { Link } from "react-router-dom";
 const Project = () => {
   const project = [
     {
-      img: img1,
-      title: "E-Commerce-Smartyt",
-      tech: ["Next.js", "TypeScript", "Redux", "Next Auth"],
-      liveLink: "https://e-commarce-smartyt.vercel.app",
-      githubLink: "https://github.com/yeasinmiah1272001/e-commarceSmartyt",
+      img: img4,
+      title: "E-Commarce-Shofy",
+      tech: ["Next js", "Typescript", "Redux", "Next Auth"],
+      liveLink: "https://shofyproject.vercel.app",
+      githubLink: "https://github.com/yeasinmiah1272001/shofy-practice-main",
     },
     {
       img: img2,
@@ -23,13 +23,15 @@ const Project = () => {
       liveLink: "https://eid-shopping.vercel.app",
       githubLink: "https://github.com/yeasinmiah1272001/eid-shopping",
     },
+
     {
-      img: img4,
-      title: "E-Commarce-Shofy",
-      tech: ["Next js", "Redux", "Next Auth"],
-      liveLink: "https://shofyproject.vercel.app",
-      githubLink: "https://github.com/yeasinmiah1272001/shofy-practice-main",
+      img: img1,
+      title: "E-Commerce-Smartyt",
+      tech: ["Next.js", "TypeScript", "Redux", "Next Auth"],
+      liveLink: "https://e-commarce-smartyt.vercel.app",
+      githubLink: "https://github.com/yeasinmiah1272001/e-commarceSmartyt",
     },
+
     {
       img: img3,
       title: "Book Store",
@@ -56,7 +58,7 @@ const Project = () => {
           {project.map((project, index) => (
             <motion.div
               key={index}
-              className="flex flex-col w-64 border p-5 shadow-2xl  rounded-lg  bg-[#031E5B] transition duration-500 h-full"
+              className="flex flex-col w-64 border p-5 shadow-2xl  rounded-lg   transition duration-500 h-full"
             >
               <div className="overflow-hidden rounded-t-lg h-60">
                 <motion.img
@@ -76,7 +78,7 @@ const Project = () => {
                   {project.tech.map((tech, techIndex) => (
                     <li
                       key={techIndex}
-                      className="bg-slate-950 bg-opacity-45 px-2 py-1 rounded-md m-1 transition-transform transform hover:scale-110 hover:text-designColor"
+                      className=" bg-opacity-45 px-2 py-1 rounded-md m-1 transition-transform transform hover:scale-110 hover:text-designColor"
                     >
                       {tech}
                     </li>

@@ -10,11 +10,11 @@ const Banner = () => {
   const stringValue = ["I build things for the web", "Frontend Developer"];
 
   return (
-    <div className="relative min-h-screen flex items-center">
+    <div className="relative min-h-screen flex items-center mx-auto">
       <LeftSideNavbar />
       <Container
         id="Home"
-        className="lg:mx-24 px-6 w-full py-12 flex flex-col lg:flex-row justify-between items-center"
+        className=" lg:mr-6  w-full py-12 flex flex-col lg:flex-row justify-between items-center"
       >
         {/* Left Side - Text Content */}
         <div className="w-full lg:w-1/2 text-center lg:text-left">
@@ -84,11 +84,11 @@ const Banner = () => {
           <img
             src={img1}
             alt="About"
-            className="w-full max-w-sm lg:max-w-lg object-contain"
+            className="w-96 max-w-sm lg:max-w-lg object-contain"
           />
         </motion.div>
       </Container>
-      <RightSideNavbar />
+      {/* <RightSideNavbar /> */}
     </div>
   );
 };

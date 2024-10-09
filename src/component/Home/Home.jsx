@@ -11,7 +11,7 @@ import Skills from "../Skills/Skills";
 import WhatNext from "../WhatNext/WhatNext";
 import SkillsCard from "./../SkillsCard/SkillsCard";
 import Design from "../Design/Design"; // Import the Design component
-import ReviewCarousel from "../ReviewCarousel/ReviewCarousel";
+// import ReviewCarousel from "../ReviewCarousel/ReviewCarousel";
 
 const Home = () => {
   return (
@@ -27,7 +27,7 @@ const Home = () => {
 
         <Project />
         <OthersProjectCard />
-        <ReviewCarousel />
+        {/* <ReviewCarousel /> */}
         <WhatNext />
         <Contact />
         <Footer />

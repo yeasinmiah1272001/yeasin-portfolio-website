@@ -11,7 +11,7 @@ export default {
         darktext: "#8892b0",
         hovarColor: "#64FFDA",
       },
-      fontFamily:  {
+      fontFamily: {
         bodyFont: ["Montserrat", "sans-serif"],
       },
       backgroundImage: {
@@ -21,4 +21,3 @@ export default {
   },
   plugins: [require("daisyui")],
 };
-
