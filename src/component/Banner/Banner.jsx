@@ -88,7 +88,6 @@ const Banner = () => {
           />
         </motion.div>
       </Container>
-      {/* <RightSideNavbar /> */}
     </div>
   );
 };
